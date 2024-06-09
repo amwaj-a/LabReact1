@@ -1,0 +1,36 @@
+.card{
+  /* background-color: antiquewhite; */
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card h1{
+  align-self: center;
+}
+.company{
+  display: flex;
+  flex-direction: column;
+}
+.programing{
+  display: flex;
+  gap: 20px;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: slategray;
+}
+.home h1{
+  text-align: center;
+
+}
+body{
+  margin: 0;
+  
+}
